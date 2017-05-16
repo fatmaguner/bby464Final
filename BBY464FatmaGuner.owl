@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/d1G65TJ5P7FRgTgQ12AMP#"
+     xml:base="http://webprotege.stanford.edu/project/d1G65TJ5P7FRgTgQ12AMP"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/d1G65TJ5P7FRgTgQ12AMP"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROdwR1W3hx8BC0Q5QDh8uo -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/ROdwR1W3hx8BC0Q5QDh8uo">
+        <rdfs:label>Eserleri</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7VqKTP0oV6R7T0xNxYuUah -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7VqKTP0oV6R7T0xNxYuUah">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>haspopularpiece</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBC0MD9hK1MkEHaX65GuJAi -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBC0MD9hK1MkEHaX65GuJAi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>authororpoet</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vrpaKPG1hoHEbPDbNzuZk -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9vrpaKPG1hoHEbPDbNzuZk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Gender</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxEMrW31kjKAO4kR32ql4S -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCxEMrW31kjKAO4kR32ql4S">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Birthplace</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RecI0zY6X9Wkw2mgEunwYw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RecI0zY6X9Wkw2mgEunwYw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Birthdate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75W6NqXOM38G81XzedmjQj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R75W6NqXOM38G81XzedmjQj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7utdIGLjp7ANxaai2cH7P"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">They launched a new movement by publishing a book called Garip.</rdfs:comment>
+        <rdfs:label>Garipçiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ayDlbvbvcFTjYW2fVBpc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ayDlbvbvcFTjYW2fVBpc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBCRvzeO4omj0wSGUG6XDDD"/>
+        <rdfs:label>ZiyaGökalp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7utdIGLjp7ANxaai2cH7P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7utdIGLjp7ANxaai2cH7P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCK5bBXywIA8TVusPBEkQGI"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the story, novel and theater works, the tendency towards &quot;dormitory&quot; and &quot;village&quot; problems started.</rdfs:comment>
+        <rdfs:label>Post-1940Literature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9N1ITixlQYl3LyneEAAwaV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9N1ITixlQYl3LyneEAAwaV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RRIhwQhXwcvYozhMLXseVC"/>
+        <rdfs:label>Şinasi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PIRWS8gSp5wPslHOU8YyM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9PIRWS8gSp5wPslHOU8YyM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBCRvzeO4omj0wSGUG6XDDD"/>
+        <rdfs:label>HalideEdipAdıvar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBABAivleDla8qrCxAHKSHm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBABAivleDla8qrCxAHKSHm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBpnEIPAcsFt6alBeWK6O6"/>
+        <rdfs:label>CenapŞehabettin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCRvzeO4omj0wSGUG6XDDD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCRvzeO4omj0wSGUG6XDDD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLn68S99v3vBl60wVt3MJ0"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Literature covers 1911-1923 years.</rdfs:comment>
+        <rdfs:label>NationalLiterature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8bTufsCSDpsPV576vBZDm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8bTufsCSDpsPV576vBZDm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjVFzg4DIWAObZtyFfZeSg"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">They gathered around the magazine Seven Torches and published a common work with this name.</rdfs:comment>
+        <rdfs:label>SevenTorchbearers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBpnEIPAcsFt6alBeWK6O6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBpnEIPAcsFt6alBeWK6O6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLn68S99v3vBl60wVt3MJ0"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Servet-i Fünun Literature covers the years 1896-1901.</rdfs:comment>
+        <rdfs:label>Servet-iFünunLiterature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCK5bBXywIA8TVusPBEkQGI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCK5bBXywIA8TVusPBEkQGI">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-Republican Turkish Literature is divided into different periods.</rdfs:comment>
+        <rdfs:label>Post-RepublicanTurkishLiterature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDewr76GOqvT5xM77LCZgqv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDewr76GOqvT5xM77LCZgqv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RRIhwQhXwcvYozhMLXseVC"/>
+        <rdfs:label>NamıkKemal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLn68S99v3vBl60wVt3MJ0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLn68S99v3vBl60wVt3MJ0">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-Republican Turkish Literature is divided into different periods.</rdfs:comment>
+        <rdfs:label>Pre-RepublicanTurkishLiterature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRIhwQhXwcvYozhMLXseVC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRIhwQhXwcvYozhMLXseVC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLn68S99v3vBl60wVt3MJ0"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Tanzimat literature covers the years 1860-1895.</rdfs:comment>
+        <rdfs:label>TanzimatLiterature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTu8CGOu2t4s6aGzTsXr4f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTu8CGOu2t4s6aGzTsXr4f">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjVFzg4DIWAObZtyFfZeSg"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poetry has played an important role in the transition of the syllabus in Turkish Literature.</rdfs:comment>
+        <rdfs:label>FiveSyllists</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUpIKVzx54wkqUbpS96yXO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUpIKVzx54wkqUbpS96yXO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7utdIGLjp7ANxaai2cH7P"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">They have defended art for poetry.</rdfs:comment>
+        <rdfs:label>SecondNewbie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXeoa8Deeh75q5G8JhceMp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXeoa8Deeh75q5G8JhceMp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBCRvzeO4omj0wSGUG6XDDD"/>
+        <rdfs:label>MehmetEminYurdakul</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rf7mTLJl7REgweF1vArIWR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rf7mTLJl7REgweF1vArIWR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBpnEIPAcsFt6alBeWK6O6"/>
+        <rdfs:label>TevfikFikret</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjVFzg4DIWAObZtyFfZeSg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjVFzg4DIWAObZtyFfZeSg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCK5bBXywIA8TVusPBEkQGI"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With the influence of the War of Independence, the issue of Anatolian literature has begun to be taken into consideration.</rdfs:comment>
+        <rdfs:label>1923-1940Literature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpB4zP0mPak3MSL5PaQUau -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RpB4zP0mPak3MSL5PaQUau">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLn68S99v3vBl60wVt3MJ0"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fecr-i Ati Literature covers the years 1909-1912.</rdfs:comment>
+        <rdfs:label>Fecr-iAtiLiterature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1fAAg0Wr6JEo0es5V3vmq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R1fAAg0Wr6JEo0es5V3vmq">
+        <rdfs:label>Şair Evlenmesi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c">
+        <rdfs:label>şair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7AVrXeDk2bXZhU4jZyJu7l -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7AVrXeDk2bXZhU4jZyJu7l">
+        <rdfs:label>Ateşten Gömlek</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Isu8MY2ziopuzBeky73Wh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8Isu8MY2ziopuzBeky73Wh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBABAivleDla8qrCxAHKSHm"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RiJLxNTUIrVkjPcsAxuKTM"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">Makedonya</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1870</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">CenapŞehabettin</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.edebiyatogretmeni.org/cenap-sahabettin/"/>
+        <rdfs:seeAlso xml:lang="tr">Birçok farklı türde eseri vardır.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8NYvF548QY7pvWC5HNjbNp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8NYvF548QY7pvWC5HNjbNp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDewr76GOqvT5xM77LCZgqv"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RCaPwtHk40FGsyXhulfeStV"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RDwWGEyWkZLLu7V4x0Dnjdi"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/RB8V3czi0mqA77sJiXZuGeR"/>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">Tekirdağ</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1840</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">NamıkKemal</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.turkedebiyati.org/namik_kemal.html"/>
+        <rdfs:seeAlso xml:lang="tr">ilk tarihi roman Cezmi&apos;dir ve ilk edebi roman İntibah&apos;tır. Ayrıca Namık Kemal&apos;in birçok tiyatro eseri vardır.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ONDyWgnx3oWUyLo8Ld33j -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ONDyWgnx3oWUyLo8Ld33j">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RTu8CGOu2t4s6aGzTsXr4f"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RgGjBTrv1p4WTNfJfDGspS"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1898</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">FarukNafizÇamlıbel</rdfs:label>
+        <rdfs:seeAlso xml:lang="tr">Çoban Çeşmesi</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8R8mxBzFkMy6rvnIc2LvkR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8R8mxBzFkMy6rvnIc2LvkR">
+        <rdfs:label>evet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XDqVpMErWC8CD7pKOd2kV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8XDqVpMErWC8CD7pKOd2kV">
+        <rdfs:label>Sis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8cBS9syXiPFKT2I6P2RFTN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8cBS9syXiPFKT2I6P2RFTN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC8bTufsCSDpsPV576vBZDm"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/R9G8jN5IJ7hP5GvsvduPoGs"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1910</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">ZiyaOsmanSaba</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pDtPsA8DQS8qCVKamaOLv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8pDtPsA8DQS8qCVKamaOLv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ayDlbvbvcFTjYW2fVBpc"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RCeDejQALmYuJObNbyJgZeL"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/RB8V3czi0mqA77sJiXZuGeR"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">Diyarbakır</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1876</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">ZiyaGökalp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ekq4XJe7Ety0IHqONPoFB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Ekq4XJe7Ety0IHqONPoFB">
+        <rdfs:label>Vazgeçemediğim</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9G8jN5IJ7hP5GvsvduPoGs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9G8jN5IJ7hP5GvsvduPoGs">
+        <rdfs:label>SebilveGüvercinler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9GxTYhJhWfLvxOVTQKRiop -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9GxTYhJhWfLvxOVTQKRiop">
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1931</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">CemalSüreya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9UOKMFa3iYxHVNI6bn3h8i -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9UOKMFa3iYxHVNI6bn3h8i">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RXeoa8Deeh75q5G8JhceMp"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RkWpBJjR27hsYgBBU7o9Qf"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1869</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">MehmetEminYurdakul</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9nP9pajIhD4Bpt7dF8hs5O -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9nP9pajIhD4Bpt7dF8hs5O">
+        <rdfs:label>eve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xgnfNTaausN1LHBnzxFPj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9xgnfNTaausN1LHBnzxFPj">
+        <rdfs:label>FarukNafizÇamlıbel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5NJz6ODwFdd3nNXU8uSL1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB5NJz6ODwFdd3nNXU8uSL1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RpB4zP0mPak3MSL5PaQUau"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RkDgjPZXEQz5HrrJ8ChUA6"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">Bağdat</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1884</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">AhmetHaşim</rdfs:label>
+        <rdfs:seeAlso xml:lang="tr">Piyale adlı şiiri de vardır.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8V3czi0mqA77sJiXZuGeR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB8V3czi0mqA77sJiXZuGeR">
+        <rdfs:label>yazar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8mJMgMpFhxM0xHjnsj8sI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB8mJMgMpFhxM0xHjnsj8sI">
+        <rdfs:label>Tercüme-i Manzume</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcEB1qkAYgJl0fJ5kk56EF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBcEB1qkAYgJl0fJ5kk56EF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9PIRWS8gSp5wPslHOU8YyM"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/R7AVrXeDk2bXZhU4jZyJu7l"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/RB8V3czi0mqA77sJiXZuGeR"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Kadın</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1882</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">HalideEdipAdıvar</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.turkedebiyati.org/yazarlar/halide_edip_adivar.html"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC3DjvR3Y12szrtR5L7w9Cq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC3DjvR3Y12szrtR5L7w9Cq">
+        <rdfs:label>Tercüman-ı Ahval</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPVWorIoQEMQFqgZkSNV5a -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCPVWorIoQEMQFqgZkSNV5a">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R75W6NqXOM38G81XzedmjQj"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/R9Ekq4XJe7Ety0IHqONPoFB"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1914</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label>OrhanVeliKanık</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.turkedebiyati.org/orhan_veli_kanik.html"/>
+        <rdfs:seeAlso xml:lang="tr">Çeviri kitapları da vardır.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaPwtHk40FGsyXhulfeStV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCaPwtHk40FGsyXhulfeStV">
+        <rdfs:label>İntibah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCeDejQALmYuJObNbyJgZeL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCeDejQALmYuJObNbyJgZeL">
+        <rdfs:label>Türkleşmek, İslamlaşmak, Muasırlaşmak</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnkf9JUcZTxxtRqZnpt2wK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCnkf9JUcZTxxtRqZnpt2wK">
+        <rdfs:label>Vazgeçemediğ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDN6NxsRx1TtYK4Phu3nKdx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDN6NxsRx1TtYK4Phu3nKdx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rf7mTLJl7REgweF1vArIWR"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/R8XDqVpMErWC8CD7pKOd2kV"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1867</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">TevfikFikret</rdfs:label>
+        <rdfs:seeAlso xml:lang="tr">Rübab-ı Şikeste, Haluk&apos;un Defteri, Rübabın Cevabı, Şermin, Tarih-i Kadim ve Son Şiirler diğer eserleridir.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTl8IhEEU5XbabUdsBHt1i -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDTl8IhEEU5XbabUdsBHt1i">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9N1ITixlQYl3LyneEAAwaV"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/R1fAAg0Wr6JEo0es5V3vmq"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/RB8V3czi0mqA77sJiXZuGeR"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">İstanbul</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1826</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">Şinasi</rdfs:label>
+        <rdfs:seeAlso xml:lang="tr">Birçok çeviri eseri bulunmaktadır. La Fontaine&apos;nin fabllarından Kurt ile Kuzu hikâyesi, Gilbert&apos;in bir kıtası, Telemak&apos;tan iki parça
+çevirmiştir.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwWGEyWkZLLu7V4x0Dnjdi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDwWGEyWkZLLu7V4x0Dnjdi">
+        <rdfs:label>Cezmi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRMxCRw2LHgeXyNH8EMBjr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRMxCRw2LHgeXyNH8EMBjr">
+        <rdfs:label>Üvercinka</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgGjBTrv1p4WTNfJfDGspS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RgGjBTrv1p4WTNfJfDGspS">
+        <rdfs:label>Han Duvarları</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiJLxNTUIrVkjPcsAxuKTM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RiJLxNTUIrVkjPcsAxuKTM">
+        <rdfs:label>Hac Yolunda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkDgjPZXEQz5HrrJ8ChUA6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RkDgjPZXEQz5HrrJ8ChUA6">
+        <rdfs:label>Göl Saatleri </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkWpBJjR27hsYgBBU7o9Qf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RkWpBJjR27hsYgBBU7o9Qf">
+        <rdfs:label>Türkçe Şiirler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsHk2ipnyedQf0UhIAMN8j -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RsHk2ipnyedQf0UhIAMN8j">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RUpIKVzx54wkqUbpS96yXO"/>
+        <webprotege:R7VqKTP0oV6R7T0xNxYuUah rdf:resource="http://webprotege.stanford.edu/RRMxCRw2LHgeXyNH8EMBjr"/>
+        <webprotege:RBC0MD9hK1MkEHaX65GuJAi rdf:resource="http://webprotege.stanford.edu/R2PkD1BpppFkf8W0fDhS5c"/>
+        <webprotege:R9vrpaKPG1hoHEbPDbNzuZk xml:lang="tr">Erkek</webprotege:R9vrpaKPG1hoHEbPDbNzuZk>
+        <webprotege:RCxEMrW31kjKAO4kR32ql4S xml:lang="tr">Erzincan</webprotege:RCxEMrW31kjKAO4kR32ql4S>
+        <webprotege:RecI0zY6X9Wkw2mgEunwYw xml:lang="tr">1931</webprotege:RecI0zY6X9Wkw2mgEunwYw>
+        <rdfs:label xml:lang="tr">CemalSüreya</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
